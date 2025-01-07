@@ -8,6 +8,8 @@ public class PersonApp {
         System.out.println(person1.adress);
         System.out.println(person1.country);
 
+        person1.sayHello("Budi");
+
         Person person2 = new Person();
         Person person3 = new Person();
     }
