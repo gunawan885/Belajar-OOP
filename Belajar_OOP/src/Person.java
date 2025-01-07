@@ -1,11 +1,11 @@
 class Person {
     String name;
-    String adress;
+    String address;
     final String country = "Indonesia";
 
-    Person(String name, String adress){
-        name = name;
-        adress = adress;
+    Person(String name, String address){
+        this.name = name;
+        this.address = address;
     }
 
     Person(String paramName){
@@ -17,6 +17,6 @@ class Person {
     }
 
     void sayHello (String name){
-        System.out.println("Hello " + name + " , my name is " + name);
+        System.out.println("Hello " + name + " , my name is " + this.name);
     }
 }
