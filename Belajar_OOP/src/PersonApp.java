@@ -8,7 +8,7 @@ public class PersonApp {
 
         person1.sayHello("Budi");
 
-        Person person2 = new Person("Budi", "Jakarta");
-        Person person3 = new Person("Ilham", "Madiun");
+        Person person2 = new Person("Budi");
+        Person person3 = new Person();
     }
 }
